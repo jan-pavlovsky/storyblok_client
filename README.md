@@ -32,7 +32,7 @@ Fetching multiple stories in the `posts` folder.
 import 'package:storyblok_client/storyblok_client.dart';
 
 void main() async {
-  const token = 'KIo34eAlr8TviGQYffp1HAtt';
+  const token = '...';
   final storyblok = StoryblokClient(token: token, autoCacheInvalidation: true);
 
   final data = await storyblok.fetchMultiple(startsWith: 'posts');
